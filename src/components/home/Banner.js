@@ -1,19 +1,14 @@
 import React from 'react';
-import banner from '../../asseats/4.png'
+import banner from '../../asseats/banner.png'
 const Banner = () => {
     return (
-      <div class="hero min-h-screen"  style={{ backgroundImage: `url(${banner})` }}>
-     
-     <div class="hero-content text-center text-neutral-content">
-       <div class="max-w-md">
-    
-         <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-         <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-         <button class="btn btn-primary">Get Started</button>
-       </div>
-     </div>
+      <div class="hero min-h-screen "  style={{ backgroundImage: `url(${banner})` }}>
+
+       <h1 className='text-4xl lg:text-7xl  text-gray-400 font-bold '> "Regain YOUR Strength"</h1>
+
+      
     </div>
     );
 };
 
-export default Banner;
+export default Banner;  

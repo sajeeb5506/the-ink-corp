@@ -1,0 +1,40 @@
+.about-box{
+background-color: #040629;
+height: 400px;
+width: 300px;
+padding: 10px;
+margin-inline-end: -66px;
+}
+.about-text{
+color: white;
+font-size: 80px;
+font-weight: 700;
+
+
+}
+.span{
+color: red;
+}
+.about-detialss{
+border-left: 15px solid #040629;
+border-radius: 2px 2px ;
+margin-left: -17px;
+}
+.banner{
+    height: 500px;
+    width: 500px;
+   
+    
+}
+
+.about-hero{
+    border-left: 15px solid rgb(107, 204, 107);
+    border-right: 50px solid rgb(107, 204, 107);
+}
+
+@media only screen and (max-width: 600px) {
+    .about-box{
+ 
+        margin-inline-end: -220px;
+        }
+  }
