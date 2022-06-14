@@ -17,6 +17,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="vision" element={<Vision />} />
       </Routes>
+   
       <Footer></Footer>
       </Naveber>
       

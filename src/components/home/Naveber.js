@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import logo2 from '../../asseats/logo2.png'
 import './Navber.css'
 const Naveber = ({children}) => {
+
+  const [navber,setNavber]=useState(false);
+
+  const changebackground = ()=>{
+    if(window.scrollY >= 70){
+      setNavber(true);
+    }
+    else{
+      setNavber(false);
+    }
+  }
+window.addEventListener('scroll',changebackground);
+
     return (
-      <div class="drawer drawer-end ">
+      <div class= "drawer drawer-end" >
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
       <div class="drawer-content flex flex-col">
      
-        <div class="w-full navbar bg-primary ">
+        <div class= " active w-full navbar bg-primary ">
         <Link to='/' class="flex-1 px-2 mx-2"><img className='logo' src={logo2} alt="" /></Link>
           <div class="flex-none lg:hidden">
             <label for="my-drawer-3" class="btn btn-square btn-ghost text-white">
@@ -20,10 +33,10 @@ const Naveber = ({children}) => {
           <div class="flex-none hidden lg:block ">
             <ul class="menu menu-horizontal gap-x-5">
      
-            <li><NavLink className='rounded-lg text-white font-bold '   to='/'>Home</NavLink></li>
-            <li><NavLink className='rounded-lg text-white font-bold' to='/about'> About</NavLink></li>
-            <li><NavLink className='rounded-lg text-white font-bold' to='/contact'> Contact us</NavLink></li>
-            <li><NavLink className='rounded-lg text-white font-bold' to='/vision'> Our Vision</NavLink></li>
+            <li><a className='hover:text-gray-500 rounded-lg text-white font-bold' href='#home'>Home</a></li>
+            <li><a className='hover:text-gray-500 rounded-lg text-white font-bold' href='#about'> About</a></li>
+            <li><a className='hover:text-gray-500 rounded-lg text-white font-bold' href='#contact'> Contact us</a></li>
+            <li><a className='hover:text-gray-500 rounded-lg text-white font-bold' href='#vision'> Our Vision</a></li>
             </ul>
           </div>
         </div>

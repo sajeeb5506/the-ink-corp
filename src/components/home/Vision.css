@@ -1,0 +1,9 @@
+.vision-box{
+
+}
+@media only screen and (max-width: 600px) {
+    .vision-box{
+     display: grid;
+     grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

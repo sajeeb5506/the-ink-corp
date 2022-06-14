@@ -25,3 +25,22 @@
             color: #040629;
             padding: 5px;
         }
+
+.contact-container{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;  
+}  
+@media only screen and (max-width: 600px) {
+  
+.contact-container{
+  flex-direction: column;
+ 
+} 
+.contact-box{
+    margin-top: 20px;
+    margin-bottom: 25px;
+   
+}
+  }
+

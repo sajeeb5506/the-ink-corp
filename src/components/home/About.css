@@ -3,7 +3,7 @@ background-color: #040629;
 height: 400px;
 width: 300px;
 padding: 10px;
-margin-inline-end: -66px;
+margin-right: -15px;
 }
 .about-text{
 color: white;
@@ -28,13 +28,13 @@ margin-left: -17px;
 }
 
 .about-hero{
-    border-left: 15px solid rgb(107, 204, 107);
-    border-right: 50px solid rgb(107, 204, 107);
+    /* border-left: 15px solid rgb(107, 204, 107); */
+    /* border-right: 50px solid rgb(107, 204, 107); */
 }
 
 @media only screen and (max-width: 600px) {
-    .about-box{
+    /* .about-box{
  
         margin-inline-end: -220px;
-        }
+        } */
   }

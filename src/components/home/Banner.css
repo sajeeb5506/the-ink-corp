@@ -1,0 +1,30 @@
+
+      .bannerimg-container{
+        max-width: auto;
+        margin: 0 auto;
+        background-color: #040629;
+      }
+
+.bg-img{
+    width: auto;
+    height: 100vh;
+    background: url('https://i.ibb.co/THQBxH2/banner.png') no-repeat center;
+    background-size: contain;
+}
+.first-div{
+height: 50vh;
+width: 900px;
+
+}
+.banner-heding{
+    margin-top: -150px;
+}
+@media only screen and (max-width:40em) {
+  .bg-img{
+    height: 30vh;
+  }
+  .banner-heding{
+    margin-top: -20px;
+    margin-right: 20px;
+}
+  }

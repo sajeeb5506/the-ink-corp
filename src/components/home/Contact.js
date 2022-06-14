@@ -6,8 +6,9 @@ import location from '../../asseats/map.png'
 
 const Contact = () => {
     return (
-<div class="hero min-h-screen bg-base-200  about-hero ">
-  <div class="hero-content flex-col lg:flex-row-reverse  ">
+      // hero-content flex-col lg:flex-row-reverse  
+<div class=" bg-base-200 py-10  " id='contact'>
+  <div class=" contact-container ">
      
       <div className="contact-box ">
 

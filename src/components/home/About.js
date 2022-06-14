@@ -3,7 +3,7 @@ import aboutimg from '../../asseats/5.png'
 import  './About.css'
 const About = () => {
     return (
-<div class="hero min-h-screen bg-base-200  about-hero ">
+<div class="hero min-h-screen bg-base-200  about-hero " id='about'>
   <div class="hero-content flex-col lg:flex-row-reverse">
       <div className="about-box ">
 
